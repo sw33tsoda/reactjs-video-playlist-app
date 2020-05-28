@@ -1,0 +1,75 @@
+div#video-player {
+    width: 500px;
+    height: 900px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin:25px auto;
+}
+
+div#video-nowplaying {
+    width: 100%;
+    height: calc(750px - 450px - 2px);
+    padding: 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+}
+
+div#video-add {
+    width: 100%;
+    height: 120px;
+    padding: 25px;
+    box-sizing:border-box;
+}
+
+div#video-add div.form-box {
+    width: 40%;
+    height: 100%;
+    float:left;
+}
+
+div.form-box input:last-child {
+    margin-top: 5px;
+}
+
+div.form-box:last-child {
+    float:right!important;
+}
+
+button#add-button {
+    width: 100%;
+    height: 100%;
+}
+
+div#video-playlist {
+    width: 100%;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+div.video {
+    height:50px;
+    
+    border-bottom: 0.5px solid rgba(185, 185, 185, 0.5);
+    padding-left:25px;
+    box-sizing: border-box;
+}
+
+div.video p {
+    margin: 0;
+    float:left;
+    line-height: 50px;
+}
+
+div.video button {
+    float:right;
+    margin-top: 11.5px;
+    margin-right: 15px;
+}
+
+div.video:hover {
+    background:rgba(185, 185, 185, 0.5);
+    cursor: pointer;
+}
+
+.playing {
+    background:rgba(185, 185, 185, 0.5);
+}
